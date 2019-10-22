@@ -8,7 +8,7 @@ import timber.log.Timber
 class CleanApp : DaggerApplication() {
 
     override fun applicationInjector(): AndroidInjector<out DaggerApplication> =
-        DaggerApplicationComponent.builder().create(this)
+        DaggerApplicationComponent.builder().application(this).build()
 
     override fun onCreate() {
         super.onCreate()

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Clean Application</string>
+
+    <!-- Posts List -->
+    <string name="title_activity_posts">Posts</string>
+    <string name="label_posts_fragment">Posts</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="tab_all">All</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="unread_indicator">Unread indicator</string>
+    <string name="favorite_indicator">Favorite indicator</string>
+    <string name="remove_all_posts_message">Remove all Posts?</string>
+    <string name="remove_all_posts_yes">Yes</string>
+    <string name="remove_all_posts_no">No</string>
+
+    <!-- Post Details -->
+    <string name="label_post_details_fragment">Post Details</string>
+    <string name="title_description">Description</string>
+    <string name="title_user">User</string>
+    <string name="title_comments">COMMENTS</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
 </resources>

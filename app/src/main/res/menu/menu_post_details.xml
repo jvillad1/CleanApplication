@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.test.clean.presentation.PostsActivity">
+
+    <item
+        android:id="@+id/actionFavorite"
+        android:icon="@drawable/ic_favorite_outline"
+        android:orderInCategory="100"
+        android:title="@string/action_favorite"
+        app:showAsAction="always" />
+</menu>
